@@ -1,0 +1,69 @@
+name: trade_management_system
+description: A modular POS & ERP-ready Flutter application.
+publish_to: "none" # since this is a private/local project
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  flutter_bloc: ^8.1.3
+
+  # Navigation
+  go_router: ^13.1.0
+
+  # Dependency Injection
+  get_it: ^7.6.4
+  injectable: ^2.3.2
+
+  # Local Database (Drift + SQLite)
+  drift: ^2.15.0
+  sqlite3: ^2.3.0
+  path_provider: ^2.1.2
+  path: ^1.9.0
+
+  # Code Generation / Serialization
+  freezed_annotation: ^2.4.1
+  json_annotation: ^4.9.0
+
+  # Flutter core UI components
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Code Generation
+  build_runner: ^2.4.8
+  drift_dev: ^2.15.0
+  injectable_generator: ^2.4.1
+  freezed: ^2.5.0
+  json_serializable: ^6.8.0
+
+  # Linting & Analysis
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+
+
+💾 **Сохрани файл** `Ctrl + S`
+
+---
+
+## 📤 Шаг 4: Инициализация и пуш на GitHub
+
+Если ты ещё не инициализировал Git:
+
+### 🔹 4.1 Инициализация Git
+```bash
+git init
